@@ -1,31 +1,36 @@
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
-        margin-bottom: 0;
-       background-color: yellow;
-       border: none;
+      margin-bottom: 0;
+      background-color: #0D75BC;
+      border: none;
+      color: white;
     }
-    
-     
-      .well{
-        min-height: 20px;
-        padding: 19px;
-        margin-bottom: 20px;
-        border: red;
-      }
-      
-      .row.content {height: 450px}
-      
-h1{
-    
-}
 
+      // --------------------Middle Column----------------- 
+     
+      // .row.content {
+      //   // height: 450px
+      // }
+
+      h2 {
+        text-align: center;
+      }
+
+      .img-fluid {
+        width: 100%;
+        height: 200px;
+        border: 5px solid #555;
+
+      }
+
+      // --------------------Bothside Column----------------- 
       /* Set gray background color and 100% height */
       .sidenav {
         padding-top: 20px;
         background-color: white;
         height: 100%;
       }
-     
+
 
       /* Set black background color, white text and some padding */
       footer {
@@ -33,12 +38,15 @@ h1{
         color: white;
         padding: 15px;
       }
-      
+
       /* On small screens, set height to 'auto' for sidenav and grid */
       @media screen and (max-width: 767px) {
         .sidenav {
           height: auto;
           padding: 15px;
         }
-        .row.content {height:auto;} 
+
+        .row.content {
+          height: auto;
+        }
       }
