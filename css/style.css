@@ -6,14 +6,33 @@
   color: white;
 }
 
+.sec-home,
+.sec-book,
+.sec-about,
+.sec-contact {
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 h2 {
   text-align: center;
 }
 
-.img-fluid {
-  width: 100%;
-  height: 200px;
-  border: 5px solid #555;
+section #about {
+  background-color: #0D75BC;
 }
 
 /* Set gray background color and 100% height */
@@ -39,5 +58,16 @@ footer {
   .row.content {
     height: auto;
   }
+}
+
+.form-control {
+  border: 0px;
+}
+
+.no-border {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 1px solid chocolate;
 }
 /*# sourceMappingURL=style.css.map */

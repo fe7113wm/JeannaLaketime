@@ -6,47 +6,76 @@
       color: white;
     }
 
-      // --------------------Middle Column----------------- 
-     
-      // .row.content {
-      //   // height: 450px
-      // }
+    // --------------------section edit----------------- 
 
-      h2 {
-        text-align: center;
-      }
+    .sec-home,
+    .sec-book,
+    .sec-about,
+    .sec-contact {
+      position: relative;
+      width: 100%;
+      height: 1300px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
 
-      .img-fluid {
-        width: 100%;
-        height: 200px;
-        border: 5px solid #555;
+    // --------------------left Column----------------- 
 
-      }
 
-      // --------------------Bothside Column----------------- 
-      /* Set gray background color and 100% height */
+    // --------------------Middle Column----------------- 
+
+    // .row.content {
+    //   // height: 450px
+    // }
+
+    h2 {
+      text-align: center;
+    }
+
+    section #about {
+      background-color: #0D75BC;
+    }
+
+
+
+    // --------------------Bothside Column----------------- 
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: white;
+      height: 100%;
+    }
+
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #0D75BC;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
       .sidenav {
-        padding-top: 20px;
-        background-color: white;
-        height: 100%;
-      }
-
-
-      /* Set black background color, white text and some padding */
-      footer {
-        background-color: #0D75BC;
-        color: white;
+        height: auto;
         padding: 15px;
       }
 
-      /* On small screens, set height to 'auto' for sidenav and grid */
-      @media screen and (max-width: 767px) {
-        .sidenav {
-          height: auto;
-          padding: 15px;
-        }
-
-        .row.content {
-          height: auto;
-        }
+      .row.content {
+        height: auto;
       }
+
+    }
+
+    // --------------------contact Column----------------- 
+    .form-control {
+      border: 0px;
+  
+    }
+    .no-border{
+      border: 0;
+      box-shadow: none;
+      border-bottom: 1px solid chocolate ;
+    }
