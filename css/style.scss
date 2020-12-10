@@ -1,92 +1,91 @@
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 0;
-      background-color: #0D75BC;
-      border: none;
-      color: white;
-    }
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  background-color: #0D75BC;
+  border: none;
+  color: white;
+}
 
-    // --------------------section edit----------------- 
-
+// --------------------section edit----------------- 
     .sec-home,
-    .sec-book,
+    
     .sec-about,
     .sec-contact {
-      position: relative;
-      width: 100%;
-      height: 1300px;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      flex-direction: row;
+         position: relative;
+        width: 100vw;
+        top: 56px;
+        padding-top: 56px;
+        /* height: calc(100vh - 56px); */
     }
 
-    // --------------------left Column----------------- 
+// --------------------left Column----------------- 
 
 
-    // --------------------Middle Column----------------- 
+// --------------------Middle Column----------------- 
 
-    // .row.content {
-    //   // height: 450px
-    // }
+h2 {
+  text-align: center;
+}
 
-    h2 {
-      text-align: center;
-    }
-
-    section #about {
-      background-color: #0D75BC;
-    }
+section #about {
+  background-color: #0D75BC;
+}
 
 //--------------Carousel-----------------
 .btnback {
   background-color: #15E6C9;
-  
+
 }
 
-    // --------------------Bothside Column----------------- 
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: white;
-      height: 100%;
-    }
+// --------------------Bothside Column----------------- 
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: white;
+  height: 100%;
+}
 
 
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #0D75BC;
-      color: white;
-      padding: 15px;
-    }
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
 
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
+  .row.content {
+    height: auto;
+  }
 
-      .row.content {
-        height: auto;
-      }
+}
 
-    }
+// --------------------contact Column----------------- 
+.form-control {
+  border: 0px;
+}
 
-    // --------------------contact Column----------------- 
-    .form-control {
-      border: 0px;
-  
-    }
-    .no-border{
-      border: 0;
-      box-shadow: none;
-      border-bottom: 1px solid chocolate ;
-    }
+.no-border {
+  border: 0;
+  box-shadow: none;
+  border-bottom: 1px solid chocolate;
+}
 
-    .submit{
-      background-color: #15E6C9;
-      border: solid;
-      border-radius: 20%;
-      padding: 5px 10px;
-    }
+.submit {
+  background-color: #15E6C9;
+  border: solid;
+  border-radius: 20%;
+  padding: 5px 10px;
+}
+
+#contact {
+  margin-bottom: 70px;
+  padding-bottom: 2em;
+}
+
+// -------------Footer---------------------
+
+footer {
+  background-color: #0D75BC;
+  color: white;
+  padding: 15px;
+}
