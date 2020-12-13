@@ -75,11 +75,11 @@ h2 {
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-bottom: 2px solid #E66B37;
+  border-bottom: 5px solid #E66B37;
 }
 
 #exampleFormControlTextarea1 {
-  border: 2px solid #E66B37;
+  border: 5px solid #E66B37;
   border-radius: 10px;
 }
 
