@@ -98,6 +98,7 @@
 #exampleFormControlTextarea1{
   border: 5px solid #E66B37;
   border-radius: 10px;
+  
 }
 
 .submit {
@@ -114,6 +115,9 @@
   padding-bottom: 2em;
 }
 
+::placeholder {
+  color: red;
+}
 // -------------Footer---------------------
 
 footer {
