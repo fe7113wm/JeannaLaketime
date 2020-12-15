@@ -19,6 +19,15 @@
 h2 {
   color: #0D75BC;
   text-align: center;
+  border-bottom: 5px solid #E66B37;
+  margin: 20px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
 }
 
 .buybtn {
@@ -34,11 +43,6 @@ h2 {
 
 .btnback {
   background-color: #15E6C9;
-}
-
-.author {
-  border-bottom: 5px solid #E66B37;
-  margin: 20px;
 }
 
 .readmore {
