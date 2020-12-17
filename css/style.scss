@@ -1,4 +1,5 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
+// ---------------------------- [ Navgation ]----------------------
+
 .navbar {
   margin-bottom: 0;
   background-color: #0D75BC;
@@ -8,6 +9,7 @@
 
 .navbar-nav {
   align-items: center;
+  border-top: .25em solid #E66B37;
 }
 
 nav {
@@ -42,17 +44,19 @@ nav {
 
 .navbar-light .navbar-toggler {
   background-color: #E66B37;
-  border:calc(1em/7) solid white;
+  border: calc(1em/7) solid white;
   transition: all 0.5s ease-in-out;
 }
-  .navbar-light:hover .navbar-toggler:hover {
-   background-color: grey;
-    
-} 
-.navbar-toggler:active
-   .navbar-toggler:active{
-     outline: none;
-   }
+
+.navbar-light:hover .navbar-toggler:hover {
+  background-color: grey;
+
+}
+
+.navbar-toggler:active .navbar-toggler:active {
+  outline: none;
+}
+
 // --------------------section edit----------------- 
 .sec-home,
 .sec-about,
@@ -107,7 +111,7 @@ h1 {
 
 //--------------Carousel-----------------
 .btnback {
-  background-color:#00ADEF;
+  background-color: Fle;
 
 }
 
@@ -119,11 +123,13 @@ h1 {
   border-radius: 20%;
   padding: 5px 3em;
   transition: all 0.5s ease-in-out;
+  margin-bottom: 2em;
 }
 
 .readmore:hover {
   background-color: #E66B37;
   color: #fff;
+
 }
 
 
@@ -170,7 +176,7 @@ h1 {
 }
 
 .submit {
-  background-color:#00ADEF;
+  background-color: #00ADEF;
   color: black;
   border-radius: 20%;
   padding: 5px 3em;
@@ -234,15 +240,17 @@ footer {
   margin: 0 .50em;
 }
 
-.btn_email:hover{
-  color:#E66B37; 
- 
-  
+.btn_email:hover {
+  color: #E66B37;
+
+
 }
-.btn_email{
-  color: #fff; 
+
+.btn_email {
+  color: #fff;
   text-decoration: underline;
 }
+
 // -------------------------------> Medial Quries <----------------------------
 
 @media screen and (max-width: 991px) {
