@@ -38,6 +38,22 @@ nav {
   width: 30px;
 }
 
+.navbar-light .navbar-toggler {
+  background-color: #E66B37;
+  border: calc(1em/7) solid white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-light:hover .navbar-toggler:hover {
+  background-color: grey;
+}
+
+.navbar-toggler:active
+.navbar-toggler:active {
+  outline: none;
+}
+
 .sec-home,
 .sec-about,
 .sec-contact {
@@ -135,7 +151,7 @@ h1 {
 }
 
 .submit {
-  background-color: #15E6C9;
+  background-color: #00ADEF;
   color: black;
   border-radius: 20%;
   padding: 5px 3em;
