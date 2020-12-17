@@ -73,7 +73,7 @@ h1 {
 
 // -------------------- (Left Column) ----------------- 
 .buybtn {
-  background-color: #15E6C9;
+  background-color: #00ADEF;
   border-radius: 20%;
   padding: 5px 3em;
   // padding: 5px 10px;
@@ -95,14 +95,14 @@ h1 {
 
 //--------------Carousel-----------------
 .btnback {
-  background-color: #15E6C9;
+  background-color:#00ADEF;
 
 }
 
 // -------------------- (Right Column) ----------------- 
 
 .readmore {
-  background-color: #15E6C9;
+  background-color: #00ADEF;
   color: black;
   border-radius: 20%;
   padding: 5px 3em;
@@ -189,7 +189,49 @@ footer {
 }
 
 
+// .social .container ul {
+//   float: left;
+// }
 
+// .social .container ul li {
+//   float: left;
+//   padding-left: 10px;
+//   list-style-type: none;
+// }
+
+
+
+.footerlist {
+  width: 50%;
+  list-style: none;
+}
+
+
+#facebook_icon {
+  width: 30px;
+  margin: 0 .50em;
+}
+
+#instagram_icon {
+  width: 30px;
+  margin: 0 .50em;
+}
+
+#twitter_icon {
+  width: 30px;
+  margin: 0 .50em;
+}
+
+.btn_email:hover{
+  color:#E66B37; 
+ 
+  
+}
+.btn_email{
+  color: #fff; 
+  text-decoration: underline;
+}
+// -------------------------------> Medial Quries <----------------------------
 
 @media screen and (max-width: 991px) {
   #facebook {
