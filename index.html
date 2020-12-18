@@ -6,11 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/png" href="images/JD_favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -24,10 +24,10 @@
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        
-        <span class="navbar-toggler-icon">   
+
+        <span class="navbar-toggler-icon">
           <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
-      </span>
+        </span>
 
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -42,11 +42,11 @@
             <a class="nav-link" style="color: white;" href="#contact">Contact</a>
           </li>
 
-          
+
           <a href="#"><img src="images/facebook_icon.png" alt="#" id="facebook"></a>
           <a href="#"><img src="images/instagram.png" alt="#" id="instagram"></a>
-        <a href="#"><img src="images/twitter.png" alt="#" id="twitter"></a>
-      
+          <a href="#"><img src="images/twitter.png" alt="#" id="twitter"></a>
+
 
         </ul>
       </div>
@@ -126,10 +126,8 @@
 
               <!-- link to print color paper PDF-->
               <div class="row">
-
-                 
-
-                <a href="colorpages.html" style="padding-bottom: 3em;">  Free coloring pages to print for kids!</a>
+     
+                <a href="colorpages.html" target="_blank" style="padding-bottom: 3em;"> Free coloring pages to print for kids!</a>
               </div>
 
             </div>
@@ -152,7 +150,8 @@
               mother of two active, young kids. Her son has a talent for leaving toys where they do not belong. He
               inspired Jeanna to write A Penguin in the Closet when she stumbled...</p>
 
-            <button class="btn rounded-pill readmore" id="readmore"> <a href="#About" style="color: black;">Read More</a> </button>
+            <button class="btn rounded-pill readmore" id="readmore"> <a href="#About" style="color: black;">Read
+                More</a> </button>
 
           </div>
         </div>
@@ -224,7 +223,7 @@
 
       <h1 class="container" style="color: #0D75BC;">Contact</h1>
       <div class="container">
-        <form>
+        <form action="mailto:jeanna.dwyer@laketimepublishing.com" method="POST">
 
           <img src="images/animals copy.jpg" alt="" style="width: 400px; height: auto; display: block; margin: 0 auto;">
 
@@ -248,17 +247,20 @@
             <textarea class="form-control no-border  " id="exampleFormControlTextarea1" placeholder="Message"
               rows="3"></textarea>
           </div>
-
           <div class="text-center">
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain"><button type="button" class="btn rounded-pill submit ">Submit</button></form>
-            
+          <!-- <a href="thankyou.html"><input class="button" type="submit" value="Sudmit"/></a> -->
+            <button type="submit" class="btn rounded-pill submit ">Submit</button> 
           </div>
+        
 
-          <div class="text-center">
-            <img src="images/Lake Time Logo_transparency.png" alt="" style="width: 200px; height: auto;">
-          </div>
+      </div>
 
-        </form>
+      <div class="text-center">
+
+        <img src="images/Lake Time Logo_transparency.png" alt="" style="width: 200px; height: auto;">
+      </div>
+
+      </form>
       </div>
     </section>
 
@@ -268,18 +270,20 @@
   <!----------------------------------------------------- [ Footer ] ------------------------------------------------------>
   <footer>
     <div class="info container-fluid text-center">
-  
+
       <div style="margin-bottom: 1em;">
-       <a href="#"><img src="images/facebook_icon.png" alt="#" id="facebook_icon"></a>
+        <a href="#"><img src="images/facebook_icon.png" alt="#" id="facebook_icon"></a>
         <a href="#"><img src="images/instagram.png" alt="#" id="instagram_icon"></a>
-       <a href="#"><img src="images/twitter.png" alt="#" id="twitter_icon"></a>
+        <a href="#"><img src="images/twitter.png" alt="#" id="twitter_icon"></a>
       </div>
- 
 
-    <p>For bulk purchases or personally signed books, please contact me directly at <a href="jeanna.dwyer@laketimepublishing.com" class="btn_email" >jeanna.dwyer@laketimepublishing.com</a></p> 
-    <p>&copy; All Rights Reserved.</p>
-  </div>
-
+      <form action="mailto:jeanna.dwyer@laketimepublishing.com" method="POST">
+      <p>For bulk purchases or personally signed books, please contact me directly a
+        <a href="mailto:jeanna.dwyer@laketimepublishing.com" type="submit" class="btn_email">jeanna.dwyer@laketimepublishing.com</a></p>
+     
+      <p>&copy; All Rights Reserved.</p>
+    </div>
+ </form>   
   </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
